@@ -5,7 +5,15 @@
 
 @font-face{
     font-family: newfont;
-    scr: url(./fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf)
+    src: url(./fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf);
+
+}
+
+#textwrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
 
 }
 
@@ -15,10 +23,27 @@ body{
     font-family: newfont;
 }
 
+#logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    position: fixed;
+    z-index: 0;
+
+
+}
+
 
 .button{
+    display: flex;
     width: 20vw;
-    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 0;
 
 
 }
@@ -42,13 +67,19 @@ h2{
 
 }
 
+h3{
+    text-align: center;
+    font-family: myfont;
+
+}
+
 #textcontainer{
     display: flex;
     flex-direction: column;
+    max-width: 50vw;
     align-content: center;
     padding: 15px;
     background-color: rgba(2, 223, 190, 75%);
-    font-family: newfont;
     font-size: 20px;
 
 
