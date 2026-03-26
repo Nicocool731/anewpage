@@ -42,7 +42,6 @@ body{
 }*/
 
 #logo{
-    width: 5vw;
     position: fixed;
     left:75vw;
     bottom:50vh;
@@ -52,7 +51,7 @@ body{
 
 
 .button{
-
+    width: 10vw;
     display: flex;
     justify-content: center;
     position: fixed;
