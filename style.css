@@ -61,47 +61,15 @@ nav a:hover{
 
 }
 
-/*#logo{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    margin:0%;
-    width: 20vw;
-    position: fixed;
-    z-index: 0;
 
-
-}*/
-
-/*#logo{
-    position: fixed;
-    left:75vw;
-    bottom:50vh;
-    transform: 50px;
+#logo{
+    width: 100%;
     padding-right: 50%;
     z-index: 0;
+    height: 40px;
     
-}*/
-
-nav a .logo img{
-    position: fixed;
-    left:75vw;
-    bottom:50vh;
-    transform: 50px;
-    padding-right: 50%;
-    z-index: 0;
-
 }
 
-
-
-}
-
-#logo:hover{
-    width: 12vw;
-
-} /* ??? */
 
 
 h1{
@@ -111,14 +79,14 @@ h1{
     padding: 0%;
     margin:0%
     color: rgb(255, 20, 0);
-    transition: background-color 2s;
-    opacity: 0.2;
+   transition: background-color 1s;
+   
 
 }
 
 h1:hover{
-    color: blue;
-    opacity: 100%;
+    font-family: myfont;
+    background-color: blueviolet;
 
 }
 
