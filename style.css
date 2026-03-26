@@ -63,13 +63,15 @@ nav a:hover{
 
 
 #logo{
-    width: 100%;
     padding-right: 50%;
     z-index: 0;
-    height: 40px;
+    height: 100px;
     
 }
 
+#logo:hover{
+    height: 120px; 
+}
 
 
 h1{
@@ -105,6 +107,7 @@ h3{
 }
 
 #textcontainer{
+    border-radius: 8%;
     display: flex;
     flex-direction: column;
     max-width: 50vw;
@@ -114,8 +117,13 @@ h3{
     font-size: 35px;
 
 
-
 }
+
+
+
+
+
+
 
 #cock{
     opacity: 100%;
