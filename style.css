@@ -18,7 +18,8 @@
 }
 
 html{
-     cursor: url("logos/cock\ kleiner.png"), auto; 
+     cursor: url(./logos/klein.png), auto;   /* ??? */
+     height: 100%;
 }
 
 
