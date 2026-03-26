@@ -17,14 +17,14 @@
 
 }
 
-curston
+
 
 body{
     background-image: url("images/boxring.webp");
     object-fit: fill;
     background-repeat: repeat;
     font-family: newfont;
-    cursor: url(./logos/scream\ chicken.png);    /*anderes Bild, logo, nur als png, jpeg*/
+    cursor: url(./logos/scream\ chicken.png)6,6,auto;    /*anderes Bild, logo, nur als png, jpeg*/
 
 }
 
