@@ -23,7 +23,7 @@ body{
     object-fit: fill;
     background-repeat: repeat;
     font-family: newfont;
-    curser: url(./images/boxring.webp);
+    curser: url(./images/boxring.png);    /*anderes Bild, logo, nur als png, jpeg*/
 }
 
 
