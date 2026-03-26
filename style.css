@@ -74,7 +74,7 @@ nav a:hover{
 
 }*/
 
-#logo{
+/*#logo{
     position: fixed;
     left:75vw;
     bottom:50vh;
@@ -82,9 +82,17 @@ nav a:hover{
     padding-right: 50%;
     z-index: 0;
     
+}*/
+
+nav a .logo img{
+    position: fixed;
+    left:75vw;
+    bottom:50vh;
+    transform: 50px;
+    padding-right: 50%;
+    z-index: 0;
+
 }
-
-
 
 
 
