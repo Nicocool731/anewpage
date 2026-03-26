@@ -17,13 +17,14 @@
 
 }
 
+curston
 
 body{
     background-image: url("images/boxring.webp");
     object-fit: fill;
     background-repeat: repeat;
     font-family: newfont;
-    curser: url(./logos/scream\ chicken.png);    /*anderes Bild, logo, nur als png, jpeg*/
+    cursor: url(./logos/scream\ chicken.png);    /*anderes Bild, logo, nur als png, jpeg*/
 
 }
 
@@ -51,7 +52,7 @@ body{
 
 
 .button{
-    width: 10vw;
+    width: 17vw;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -105,7 +106,7 @@ h3{
     align-content: center;
     padding: 15px;
     background-color: rgba(2, 223, 190, 75%);
-    font-size: 30px;
+    font-size: 35px;
 
 
 
