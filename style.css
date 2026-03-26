@@ -24,11 +24,10 @@ body{
     background-repeat: repeat;
     font-family: newfont;
     curser: url(./logos/scream\ chicken.png);    /*anderes Bild, logo, nur als png, jpeg*/
+
 }
 
-#link{
-    size: 25%;
-}
+
 /*#logo{
     display: inline-flex;
     flex-wrap: nowrap;
@@ -43,9 +42,9 @@ body{
 }*/
 
 #logo{
-
+    width: 5vw;
     position: fixed;
-    left:50vw;
+    left:75vw;
     bottom:50vh;
     transform: 50px;
     
@@ -53,8 +52,8 @@ body{
 
 
 .button{
+
     display: flex;
-    width: 20vw;
     justify-content: center;
     position: fixed;
     z-index: 0;
