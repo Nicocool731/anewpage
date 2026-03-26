@@ -28,10 +28,36 @@ body{
     object-fit: fill;
     background-repeat: repeat;
     font-family: newfont;
-    /*cursor: url(./logos/cock\ kleiner.png)32, 32, auto;    /*anderes Bild, logo, nur als png, jpeg*/ 
 
 }
 
+nav{
+    background-color: rgba(2, 223, 190, 60%);
+    font-size: 2vw;
+    border-radius: 8%;
+}
+
+
+
+nav ul{ 
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    padding:0%;
+    gap: 3rem;
+
+}
+
+nav a:hover{
+    font-size: 2.5vw;
+    opacity: 75%;
+
+}
 
 /*#logo{
     display: inline-flex;
