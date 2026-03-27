@@ -12,6 +12,7 @@
     <audio id="clickSound" preload ="auto">
         <source src="./sound/floraphonic-rubber-chicken-squeak-toy-3-181418.mp3" type="audio/mpeg">
     </audio>
+
     <nav>
         <ul>
             <li><a href="./index.html">HOME</a></li>
@@ -50,8 +51,24 @@
             <p> for those who don´t eat chicken, here is a digital one :3</p>
           </a>
     </div>
-        
+    
 
     </main>
 </body>
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sound = document.getElementById("clickSound");
+        const button=document.getElementsByTagName("body");
+
+        button.addEventListener("click", function () {
+        // Setzt den Sound zurück, falls er schon läuft
+            sound.currentTime = 0;
+            sound.play().catch(err => {
+                console.error("Audio konnte nicht abgespielt werden:", err);
+            });
+            console.log("sound");
+        });
+    });
+    </script>
+
 </html>
