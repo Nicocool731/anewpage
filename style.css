@@ -106,20 +106,28 @@ h3{
 
 }
 
-#textcontainer{
+.textcontainer{
     border-radius: 8%;
     display: flex;
     flex-direction: column;
     max-width: 50vw;
     align-content: center;
     padding: 15px;
-    background-color: rgba(2, 223, 190, 75%);
+    background-color: rgba(2, 223, 190, 60%);
     font-size: 35px;
 
 
 }
 
+#button{
+    font-size: 1.5vw;
+    text-decoration: dotted;
+    text-underline-offset: 3px;
+    padding: 0%;
+    background-color: rgba(255, 77, 0, 60%);
 
+
+}
 
 
 
