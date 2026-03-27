@@ -18,10 +18,14 @@
 }
 
 html{
-     cursor: url(./logos/klein.png), auto;   /* ??? */
+     cursor: url(./logos/klein.png), pointer;   /* ??? */
      height: 100%;
 }
 
+#clickSound{
+    dje
+
+}
 
 body{
     background-image: url("images/boxring.webp");
@@ -75,13 +79,13 @@ a:visited{
 #grilled{
     left: 20%;
     z-index: 0;
-    height: 280%;
+    height: 300%;
     
 }
 
 
 #grilled:hover{
-    height: 320%;
+    height: 325%;
 }
 
 
