@@ -157,6 +157,28 @@ h3{
     justify-content: right;
 }
 
+.flexbox{
+    display: flex;
+    flex: 0 0 calc(50%-20%);
+    border:2px;
+    border-style: dashed;
+    border-radius: 5%;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+    object-fit: contain;
+
+}
+
 
 @media (orientation: portrait){
     #cock{
