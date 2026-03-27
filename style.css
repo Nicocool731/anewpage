@@ -172,8 +172,8 @@ h3{
 .photo img {
     width: auto;
     height: auto;
-    max-width: 100%;
-    min-width: 100%;
+    max-width: 20%;
+    min-width: 20%;
     display: block;
     object-fit: contain;
 
