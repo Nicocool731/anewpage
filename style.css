@@ -199,9 +199,11 @@ h3{
     border-radius: 6%;
     border-style: dashed;
     border-width: 4px;
+   
 }
 
-.photo img:hover{
+
+.photo img :hover{
     height: 120%;
     width: 120%;
     transition: 0.5s;
