@@ -73,15 +73,15 @@ a:visited{
 }
 
 #grilled{
-    padding-right: 50%;
+    left: 20%;
     z-index: 0;
-    height: 100px;
+    height: 280%;
     
 }
 
 
 #grilled:hover{
-    height: 120px;
+    height: 320%;
 }
 
 
