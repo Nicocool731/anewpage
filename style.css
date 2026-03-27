@@ -61,6 +61,9 @@ nav a:hover{
 
 }
 
+a:visited{
+    color: crimson;
+}
 
 #logo{
     padding-right: 50%;
@@ -68,6 +71,19 @@ nav a:hover{
     height: 100px;
     
 }
+
+#grilled{
+    padding-right: 50%;
+    z-index: 0;
+    height: 100px;
+    
+}
+
+
+#grilled:hover{
+    height: 120px;
+}
+
 
 #logo:hover{
     height: 120px; 
@@ -112,7 +128,7 @@ h3{
     flex-direction: column;
     max-width: 50vw;
     align-content: center;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(2, 223, 190, 60%);
     font-size: 35px;
 
@@ -159,13 +175,16 @@ h3{
 
 .flexbox{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex: 0 0 calc(50%-20%);
     border:2px;
     border-style: dashed;
     border-radius: 5%;
     transition: 0.5s;
-    justify-content: center;
-    align-items: center;
+    overflow: visible;
+
 }
 
 
@@ -174,9 +193,8 @@ h3{
     height: auto;
     max-width: 20%;
     min-width: 20%;
-    display: block;
+    display: flex;
     object-fit: contain;
-
 }
 
 
